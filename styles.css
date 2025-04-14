@@ -150,7 +150,8 @@ a:hover {
 .hero-section {
     height: 100vh;
     background: linear-gradient(rgba(14, 48, 82, 0.8), rgba(14, 48, 82, 0.8)), 
-                url('https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+                url('images/coding-image.jpg') no-repeat center center;
+    background-size: contain;
     color: #fff;
     display: flex;
     align-items: center;
